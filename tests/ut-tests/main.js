@@ -29,9 +29,7 @@ describe('Cases', function() {
     }); */
   });
 
-  it('click on Click Me button', function () {
-    /** Template.hello.onCreated(function() {
-      this.counter = new ReactiveVar(0);
-    }); */
+  it("click on Click Me button", function () {
+    console.log("xpto")
   });
 });
