@@ -3,7 +3,8 @@
   "private": false,
   "pre-commit": [
     "precommit-msg",
-    "lint"
+    "lint",
+    "test"
   ],
   "scripts": {
     "start": "meteor run",
