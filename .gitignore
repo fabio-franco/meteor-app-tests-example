@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ignore all reports and screenshots from nightwatch
+tests/nightwatch/reports/
+tests/nightwatch/screenshots/
+
+# ignore package-lock
+package-lock.json
