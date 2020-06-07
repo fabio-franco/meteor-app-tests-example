@@ -1,18 +1,24 @@
 {
   "name": "meteor-app-tests",
-  "private": true,
+  "private": false,
+  "pre-commit": [
+    "precommit-msg",
+    "lint"
+  ],
   "scripts": {
     "start": "meteor run",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer",
     "lint": "eslint .",
-    "pretest": "npm run lint --silent"
+    "pretest": "npm run lint --silent",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
   },
   "dependencies": {
     "@babel/runtime": "^7.8.3",
     "jquery": "^3.4.1",
-    "meteor-node-stubs": "^1.0.0"
+    "meteor-node-stubs": "^1.0.0",
+    "pre-commit": "^1.2.2"
   },
   "meteor": {
     "mainModule": {

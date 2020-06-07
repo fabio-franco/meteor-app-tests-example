@@ -1,6 +1,6 @@
-/* global describe, it, Meteor, before, ReactiveVar */
+/* global describe, it, Meteor, before */
 import assert from 'assert';
-import { Template } from 'meteor/templating';
+// import { Template } from 'meteor/templating';
 
 describe('meteor-app-tests', function () {
   it('package.json has correct name', async function () {
@@ -24,14 +24,14 @@ describe('meteor-app-tests', function () {
 describe('Cases', function() {
   before(function() {
     // resetDatabase();
-    Template.hello.onCreated(function() {
+    /** Template.hello.onCreated(function() {
       this.counter = new ReactiveVar(0);
-    });
+    }); */
   });
 
-  it('click Edit it can delete entries', function () {
-    Template.hello.onCreated(function() {
+  it('click on Click Me button', function () {
+    /** Template.hello.onCreated(function() {
       this.counter = new ReactiveVar(0);
-    });
+    }); */
   });
 });
