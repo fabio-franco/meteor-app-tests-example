@@ -15,7 +15,7 @@ describe('meteor-app-tests', function () {
   }
 
   if (Meteor.isServer) {
-    it('server is not client', function () {
+    it('server is not Client', function () {
       assert.strictEqual(Meteor.isClient, false);
     });
   }
