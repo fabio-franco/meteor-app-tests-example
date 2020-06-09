@@ -7,7 +7,7 @@ After that, just clone the repository and run: `npm install` and `npm run start`
 
 Enjoy!
 
-![alt text](https://github.com/fabio-franco/master/blob/master/assets/app-screenshot.png)
+![alt text](https://github.com/fabio-franco/meteor-app-tests-example/blob/master/assets/app-screenshot.png)
 
 # Technologies discussed
 
