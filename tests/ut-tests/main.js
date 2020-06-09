@@ -29,7 +29,6 @@ describe('Cases', function() {
     }); */
   });
 
-  it("click on Click Me button", function () {
-    console.log("xpto")
+  it('click on Click Me button', function () {
   });
 });

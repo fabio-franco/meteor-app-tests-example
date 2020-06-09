@@ -1,21 +1,43 @@
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>meteor-app-tests</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> fakeLogin}}
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1>Welcome to Meteor!</h1>
+      {{> fakeLogin}}
+    </div>
+  </div>
   {{> hello}}
   {{> info}}
 </body>
 
 <template name="hello">
-  <button id="counter-button">Click Me</button>
+  <button id="counter-button" class="btn btn-secondary">Click Me</button>
   <p>You have pressed the button {{counter}} times.</p>
 </template>
 
 <template name="info">
+  <h2 class="text-center">Lorem ipsum</h2>
+  <div class="container">
+    <div class="row flex-row">
+      <div class="col-12 col-9-sm col-md-6 col-lg-4 col-xl-3 text-block">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada fringilla ligula sit amet sollicitudin. Sed eros sem, iaculis ac pharetra ac, molestie ut velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sapien ex, imperdiet nec risus id, fermentum blandit nisl. Nam consequat luctus dui a congue. Pellentesque bibendum cursus elit eu molestie. Cras sed mattis tellus. Mauris condimentum a ex eu mollis. Mauris eleifend vitae mauris ut mattis. Aliquam porta erat vitae nibh feugiat condimentum. Etiam varius tincidunt nulla nec semper. Aliquam porttitor nec leo vitae tempus. Etiam at turpis maximus, viverra quam at, tempus nibh. Mauris a erat libero. Duis aliquet tempor lacus, nec vehicula augue mattis a.
+      </div>
+      <div class="col-12 col-9-sm col-md-6 col-lg-4 col-xl-3 text-block">
+        Nullam viverra arcu at tincidunt dignissim. Ut varius augue quis tortor convallis, in porta magna bibendum. Pellentesque eu erat venenatis, sodales magna a, lobortis velit. Vivamus quis commodo arcu. Donec ut purus laoreet mauris porta congue. Quisque pulvinar diam a ex tempor feugiat. Ut eu varius nunc. Ut tincidunt auctor lectus ut elementum.
+      </div>
+      <div class="col-12 col-9-sm col-md-6 col-lg-4 col-xl-3 text-block">
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer lobortis magna id velit efficitur, sed condimentum mi egestas. Suspendisse fringilla, est sed dapibus rhoncus, tellus lorem tristique mauris, quis placerat mi diam quis erat. Nulla auctor porttitor eros, vel accumsan nisl aliquam at. Proin eget lacus urna. Nam non accumsan lorem. Sed a eros non lectus pulvinar facilisis. Vivamus semper tellus vel sem euismod, nec porttitor est interdum. Donec dapibus pharetra convallis.
+      </div>
+      <div class="col-12 col-9-sm col-md-6 col-lg-4 col-xl-3 text-block">
+        Proin vel convallis ex. Maecenas lacus nibh, tristique ac aliquam mollis, tempus ullamcorper nulla. Suspendisse sit amet semper nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia libero condimentum vulputate cursus. Phasellus ut augue ultricies, consequat mi nec, mollis ipsum. Pellentesque dolor elit, hendrerit quis fermentum vel, pulvinar in tortor. Integer viverra mi vitae congue commodo. Maecenas maximus risus et mauris scelerisque, sed egestas ex blandit. Vestibulum nec aliquet dui. In eget risus sit amet mi hendrerit porta vehicula ut lectus. Nam dictum aliquet ante, vitae vestibulum ipsum tempus ut. Nunc lobortis venenatis lectus, in pellentesque risus congue sit amet. Donec sed massa quis nulla iaculis interdum at eu erat. Suspendisse potenti. Suspendisse molestie enim quis massa sollicitudin bibendum.
+      </div>
+    </div>
+  </div>
+
   <h2>Learn Meteor!</h2>
   <ul>
     <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
