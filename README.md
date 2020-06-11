@@ -5,9 +5,11 @@ The purpose of this project is illustrate some of the technologies discussed on 
 To use this project, make sure you have meteor installed: https://www.meteor.com/install
 After that, just clone the repository and run: `npm install` and `npm run start`.
 
+It is recommended use npm version 6.14.4 and node version v12.16.3.
+
 Enjoy!
 
-![alt text](https://github.com/fabio-franco/master/blob/master/assets/app-screenshot.png)
+![alt text](https://github.com/fabio-franco/meteor-app-tests-example/blob/master/assets/app-screenshot.png)
 
 # Technologies discussed
 
