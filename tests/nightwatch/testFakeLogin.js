@@ -18,7 +18,7 @@ module.exports = {
 
       // simulate user click to login
       .click('#login')
-      .pause(500)
+      .pause(5000)
 
       .verify.containsText('h5', 'Jake')
       .verify.elementPresent('#logout')

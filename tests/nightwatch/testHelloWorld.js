@@ -16,7 +16,7 @@ module.exports = {
       .verify.elementPresent('#counter-button')
 
       // simulate user input
-      .click('#counter-button').pause(500)
+      .click('#counter-button').pause(5000)
 
       // test app output again, to make sure input worked
       .verify.containsText('p', 'button 1 times')
